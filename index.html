@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
+    <!-- Font Awsome Icons -->
+    <script src="https://kit.fontawesome.com/8dd7a5e2ff.js" crossorigin="anonymous"></script>
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
 
@@ -20,38 +22,38 @@
 
     <Section class="container">
 
-        <!-- Top players and top blogs starts-->
+        <!-- Top Players Starts-->
         <div>
             <h2>Top Player</h2>
             <div class="top-players">
                 <!-- div*6.top-player>img[src="images/players/player-$.png"]+h3{Player-$} -->
                 <div class="top-player">
                     <img src="images/players/player-1.png" alt="">
-                    <h3 class="top-player-name">Player-1</h3>
+                    <h3 class="top-player-name">John Smith</h3>
                 </div>
                 <div class="top-player">
                     <img src="images/players/player-2.png" alt="">
-                    <h3 class="top-player-name">Player-2</h3>
+                    <h3 class="top-player-name">Pro Rasel</h3>
                 </div>
                 <div class="top-player">
                     <img src="images/players/player-3.png" alt="">
-                    <h3 class="top-player-name">Player-3</h3>
+                    <h3 class="top-player-name">Abu Sufian</h3>
                 </div>
                 <div class="top-player">
                     <img src="images/players/player-4.png" alt="">
-                    <h3 class="top-player-name">Player-4</h3>
+                    <h3 class="top-player-name">Shajedul Karim</h3>
                 </div>
                 <div class="top-player">
                     <img src="images/players/player-5.png" alt="">
-                    <h3 class="top-player-name">Player-5</h3>
+                    <h3 class="top-player-name">Maruf Ahmed</h3>
                 </div>
                 <div class="top-player">
                     <img src="images/players/player-6.png" alt="">
-                    <h3 class="top-player-name">Player-6</h3>
+                    <h3 class="top-player-name">Mujahid</h3>
                 </div>
             </div>
         </div>
-        <!-- Top players and top blogs starts-->
+        <!-- Top Players Ends-->
 
         <hr>
 
@@ -59,13 +61,13 @@
         <div>
             <h2 id="top-blogs-heading-text"> Top Blogs</h2>
             <div class="top-blogs">
-                <!-- .top-blog*4>img[src="images/courses/course-$.png"]+.course-info>h3{Course Name-$}+p{By Author - $} -->
+                <!-- .top-blog*4>img[src="images/blogs/blog-$.png"]+.course-info>h3{Course Name-$}+p{By Author - $} -->
                 <div class="top-blog">
                     <img src="images/blogs/blog-1.png" alt="">
                     <div class="course-info">
                         <h3>13 of My Favorite
                             UI/UX Goodies</h3>
-                        <p>By Danny Sapio</p>
+                        <p>By <a href="">Danny Sapio</a></p>
                     </div>
                 </div>
                 <div class="top-blog">
@@ -73,7 +75,7 @@
                     <div class="course-info">
                         <h3>UI cheat sheet:
                             list vs grids</h3>
-                        <p>By Tess Gadd</p>
+                        <p>By <a href="">Tess Gadd</a></p>
                     </div>
                 </div>
                 <div class="top-blog">
@@ -81,7 +83,7 @@
                     <div class="course-info">
                         <h3>7 typography tips
                             for interface design</h3>
-                        <p>By Jeremiah Lam</p>
+                        <p>By <a href="">Jeremiah Lam</a></p>
                     </div>
                 </div>
                 <div class="top-blog">
@@ -89,15 +91,80 @@
                     <div class="course-info">
                         <h3>Your logo is
                             copied</h3>
-                        <p>By Ferdinand Vogler</p>
+                        <p>By <a href="">Ferdinand Vogler</a></p>
                     </div>
                 </div>
 
 
             </div>
         </div>
-
+        <!-- Top Blogs Ends -->
     </Section>
+
+    <section class="container">
+        <h2>Latest Courses</h2>
+        <!-- Latest Course Starts -->
+        <!-- div>.latest-course*3>img[src="images/courses/course-$.png"]+h3{Course Name-$}+small{Author Name-$}+.review-tab>.review+.duration>img[src="images/icons/clock.png"]+p{01:30 hr} -->
+        <div class="latest-courses">
+            <div class="latest-course">
+                <img src="images/courses/course-1.png" alt="">
+                <h3>React - The Complete Guide 2020</h3>
+                <small>Reed Krakoff</small>
+                <div class="review-tab">
+                    <div class="review">
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star" id="stars"></i>
+                        <p>4.5</p>
+                    </div>
+                    <div class="duration">
+                        <img src="images/icons/clock.png" alt="">
+                        <p>01:30 hr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-course">
+                <img src="images/courses/course-2.png" alt="">
+                <h3>Powerpoint 2020 Master Powerpoint Course 2020</h3>
+                <small>Walter Scott</small>
+                <div class="review-tab">
+                    <div class="review">
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star" id="stars"></i>
+                        <p>4.5</p>
+                    </div>
+                    <div class="duration">
+                        <img src="images/icons/clock.png" alt="">
+                        <p>01:20 hr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-course">
+                <img src="images/courses/course-3.png" alt="">
+                <h3>The Complete JavaScript Course 2020</h3>
+                <small>Author Name-3</small>
+                <div class="review-tab">
+                    <div class="review">
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star stars"></i>
+                        <i class="fa-solid fa-star" id="stars"></i>
+                        <p>4.5</p>
+                    </div>
+                    <div class="duration">
+                        <img src="images/icons/clock.png" alt="">
+                        <p>01:30 hr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
